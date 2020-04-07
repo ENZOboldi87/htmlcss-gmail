@@ -1,0 +1,89 @@
+/* general rules */
+
+body {
+background-image: url(../img/sfondo.jpg);
+
+}
+.main-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+/* fine general rules */
+
+/*  head logo rules */
+.header-logo .logo {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+
+}
+
+.header-logo .logo-testo {
+  font-size: 25px;
+  color:white;
+}
+
+.header-logo .top {
+  margin-top: 0;
+}
+
+/* fine head logo */
+
+/* bottom header */
+
+.bottom-header {
+  color:white;
+}
+
+.bottom-header .counter {
+  margin-top: 0px;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.bottom-header .counter .unread-mail {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+/* fine bottom header */
+
+/* lista email rules */
+
+.lista-email .unread-email  {
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.lista-email .read-email {
+  background-color: white;
+  border: 1px solid black
+
+}
+
+/* fine lista email */
+
+/* footer */
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.footer .powered {
+  font-style: italic;
+  font-size: 15px;
+
+}
